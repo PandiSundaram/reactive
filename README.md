@@ -40,6 +40,8 @@ spring.r2dbc.username=sa
 spring.r2dbc.password=password
 
     2.  Configuration class
+
+    -----------------
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "com.example.jpa.repository")
@@ -53,7 +55,7 @@ public class JpaConfig {
 public class R2dbcConfig {
     // Define R2dbcConnectionFactory, TransactionManager, etc.
 }
-
+-------------------------
 
 3.Service Layer: Build your service layer to interact with both JPA and R2DBC repositories as needed.
 
