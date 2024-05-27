@@ -60,5 +60,9 @@ public class R2dbcConfig {
 3.Service Layer: Build your service layer to interact with both JPA and R2DBC repositories as needed.
 
 
+RECOMMANDED APPROACH:
+
+  1. Migrate jpa to r2dbc application
+  2. Follow CQRS pattern
 
         
